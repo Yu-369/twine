@@ -1,3 +1,23 @@
+### 🚨 Android Security Research & DRM Analysis (2025) 
+
+*Disclaimer: This fork was created only for educational purposes to learn about client side validation, anti tampering mechanisms and Android DRM.*
+
+**Research Log and Results:**
+
+
+* **July 2025 (First Bypass):** 
+With the introduction of the premium paywall I studied the architecture and patched `BillingHandler.kt`. The local bypass worked, and showed that the premium state was originally done with boolean logic on the client side.
+
+**November 2025 (The Developer Countermeasure):** 
+Better security was added to later builds. I built and ran the patched build from Nov 2025 and got
+
+**"Error 23: There's an issue with your config..."** This implies that the developers have successfully integrated anti-tampering, signature verification, or server-side config checks to stop modified APKs from running.
+
+**Note:**  
+I’m a systems architect, and a prompt-native one at that. I led the reverse engineering strategy, bypass logic and testing. AI (Gemini) accelerated patching of the particular Kotlin syntax and codebase navigation. This repository is still publicly accessible as a case study of the “cat-and-mouse” evolution of Android application security.
+
+
+
 # Twine - RSS Reader
 
 ![CI-MAIN](https://github.com/msasikanth/twine/actions/workflows/ci_checks.yml/badge.svg?branch=main)
