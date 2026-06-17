@@ -13,10 +13,6 @@ Better security was added to later builds. I built and ran the patched build fro
 
 **"Error 23: There's an issue with your config..."** This implies that the developers have successfully integrated anti-tampering, signature verification, or server-side config checks to stop modified APKs from running.
 
-**Note:**  
-I’m a systems architect, and a prompt-native one at that. I led the reverse engineering strategy, bypass logic and testing. AI (Gemini) accelerated patching of the particular Kotlin syntax and codebase navigation. This repository is still publicly accessible as a case study of the “cat-and-mouse” evolution of Android application security.
-
-
 
 # Twine - RSS Reader
 
